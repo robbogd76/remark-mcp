@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Downloaded PDFs (from fetch-pdf.js)
+*.pdf
+
+# Environment / local config
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

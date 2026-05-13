@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(node --check index.js)",
+      "Bash(node -e \"const {McpServer}=require\\('@modelcontextprotocol/sdk/server/mcp.js'\\); const {StdioServerTransport}=require\\('@modelcontextprotocol/sdk/server/stdio.js'\\); const {z}=require\\('zod'\\); console.log\\('All imports OK', typeof McpServer, typeof StdioServerTransport, typeof z.string\\)\")",
+      "Bash(node -e \"require\\('node:test'\\); console.log\\('node:test available'\\)\")",
+      "Bash(node --test index.test.js)",
+      "Bash(npm uninstall:*)",
+      "Bash(node fetch-pdf.js)"
+    ]
+  }
+}
