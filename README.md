@@ -1,13 +1,13 @@
 # remark-mcp
 
-An [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that connects AI assistants to a **reMarkable tablet** over its local USB/Wi-Fi HTTP interface.
+An [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that connects AI assistants to a **reMarkable tablet** over its local USB HTTP interface.
 
 Once configured, you can ask Claude (or any MCP-capable client) to browse your tablet's documents and read them — the server fetches the PDF from the tablet and renders each page as an image that the AI can see.
 
 ## Prerequisites
 
 - **Node.js** 18 or later
-- A **reMarkable tablet** connected via USB cable (or the same Wi-Fi network) with the USB web interface enabled
+- A **reMarkable tablet** connected via USB cable with the USB web interface enabled
   - On the tablet: *Settings → Storage → USB web interface* — make sure it is turned on
   - The tablet must be reachable at `http://10.11.99.1` (the default USB address)
 
