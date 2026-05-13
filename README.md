@@ -1,4 +1,4 @@
-# rm-mcp
+# remark-mcp
 
 An [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that connects AI assistants to a **reMarkable tablet** over its local USB/Wi-Fi HTTP interface.
 
